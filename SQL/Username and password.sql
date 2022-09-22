@@ -1,0 +1,3 @@
+SELECT CONCAT(cust_name,cust_id) AS USERNAME, CONCAT(SUBSTRING(cust_name,1,3), SUBSTRING(cust_id,6,4))AS PASSWORD
+FROM customer
+BY USERNAME ASC
